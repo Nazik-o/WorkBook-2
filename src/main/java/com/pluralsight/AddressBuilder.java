@@ -18,21 +18,21 @@ public class AddressBuilder {
 
         System.out.println("Billing State: ");
         String billingState = scanner.nextLine().toUpperCase();
-        //Make it that it chooses the states in capitilized two letters,maybe even if statements.
+
 
         System.out.println("Billing Zip: ");
         String billingZip = scanner.nextLine();
-        // line devidor needed
+
 
         System.out.println("Shipping Street: ");
         String shippingStreet = scanner.nextLine();
-        //First needs to be numbers and then string
+
         System.out.println("Shipping City: ");
         String shippingCity = scanner.nextLine();
-        //only upper case for starting letters
+
         System.out.println("Shipping State: ");
         String shippingState = scanner.nextLine().toUpperCase();
-        //capitilized but only 2 digit string needed
+
         System.out.println("Shipping Zip: ");
         String shippingZip = scanner.nextLine();
 
